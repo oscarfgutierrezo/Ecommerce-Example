@@ -23,3 +23,11 @@
 .shadow-dp {
     box-shadow: 0px 15px 40px rgba(38, 38, 38, 0.17);
 }
+
+.btn-01 {
+    @apply text-lg font-medium text-dark-violet-2 text-opacity-40 border-b-2 border-transparent hover:text-opacity-100 hover:border-dark-violet-2
+}
+
+.btn-02 {
+    @apply text-lg font-medium text-dark-violet-2 border-b-2 border-transparent hover:text-opacity-40 hover:border-dark-violet-2 hover:border-opacity-40
+}
