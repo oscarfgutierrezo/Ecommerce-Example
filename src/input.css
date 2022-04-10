@@ -25,7 +25,7 @@
 }
 
 .btn-01 {
-    @apply text-lg font-medium text-dark-violet-2 text-opacity-40 border-b-2 border-transparent hover:text-opacity-100 hover:border-dark-violet-2
+    @apply text-lg font-medium text-dark-violet text-opacity-40 border-b-2 border-transparent hover:text-opacity-100 hover:border-dark-violet
 }
 
 .btn-02 {
