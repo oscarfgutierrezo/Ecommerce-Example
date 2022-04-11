@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 <body>
-    <div class="divider"></div>
+    <!-- <div class="divider"></div>
     <section class="ecommerce-01 container px-5 py-20 sm:px-10">
         <main class="max-w-7xl mx-auto grid grid-cols-5 justify-items-center gap-14 text-dark-violet lg:gap-24">
             <div class="col-span-5 text-center lg:col-span-3 lg:text-left">
@@ -2732,6 +2732,252 @@
                     </div>
                 </form>
             </div>
+        </main>
+    </section>
+    <div class="divider"></div>
+    <section class="ecommerce-36 container px-5 py-20 sm:px-10">
+        <main class="max-w-[944px] mx-auto flex flex-col gap-10 text-dark-violet">
+            <h2 class="text-center title-01">Your Shopping Cart</h2>
+            <div class="flex flex-wrap justify-center gap-10 lg:hidden">
+                <div class="max-w-[300px] p-3 flex flex-col gap-3 border-2 border-grey rounded-xl">
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Product</p>
+                        <p class="text-lg font-medium">Modal-blend Wrap Dress</p>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">characteristics</p>
+                        <p class="text-lg font-medium">Color Red, Size S</p>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Amount</p>
+                        <div class="py-2 w-[100px] flex justify-around items-center text-dark-violet border-2 border-grey rounded-full">
+                            <span class="text-lg font-medium">1</span>
+                            <div class="flex flex-col">
+                                <i class="fa-solid fa-chevron-up text-[12px] -mb-0.5"></i>
+                                <i class="fa-solid fa-chevron-down text-[12px] -mt-0.5"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Price</p>
+                        <p class="text-lg font-medium">$22</p>
+                    </div>                    
+                </div>
+                <div class="max-w-[300px] p-3 flex flex-col gap-3 border-2 border-grey rounded-xl">
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Product</p>
+                        <p class="text-lg font-medium">Flared Satin Skirt</p>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">characteristics</p>
+                        <p class="text-lg font-medium">Color Yellow, Size M</p>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Amount</p>
+                        <div class="py-2 w-[100px] flex justify-around items-center text-dark-violet border-2 border-grey rounded-full">
+                            <span class="text-lg font-medium">3</span>
+                            <div class="flex flex-col">
+                                <i class="fa-solid fa-chevron-up text-[12px] -mb-0.5"></i>
+                                <i class="fa-solid fa-chevron-down text-[12px] -mt-0.5"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Price</p>
+                        <p class="text-lg font-medium">$63</p>
+                    </div>                    
+                </div>
+                <div class="max-w-[300px] p-3 flex flex-col gap-3 border-2 border-grey rounded-xl">
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Product</p>
+                        <p class="text-lg font-medium">Long-sleeved Wrapover Blouse</p>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">characteristics</p>
+                        <p class="text-lg font-medium">Color White, Size XS</p>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Amount</p>
+                        <div class="py-2 w-[100px] flex justify-around items-center text-dark-violet border-2 border-grey rounded-full">
+                            <span class="text-lg font-medium">2</span>
+                            <div class="flex flex-col">
+                                <i class="fa-solid fa-chevron-up text-[12px] -mb-0.5"></i>
+                                <i class="fa-solid fa-chevron-down text-[12px] -mt-0.5"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 items-center">
+                        <p class="name-01 text-dark-violet-2 text-opacity-40">Price</p>
+                        <p class="text-lg font-medium">$50</p>
+                    </div>                    
+                </div>
+            </div>
+            <table class="hidden w-full lg:block">
+                <thead>
+                    <tr class="name-01 text-dark-violet-2 text-opacity-40 border-b-2 border-grey">
+                        <th class="w-[350px] pb-5 text-left">product</th>
+                        <th class="w-[350px] pb-5 text-left">characteristics</th>
+                        <th class="w-[150px] pb-5 text-left">Amount</th>
+                        <th class="w-[75px] pb-5 text-left">Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="text-lg font-medium text-dark-violet">
+                    <tr class="border-b-2 border-grey">
+                        <td class="py-7">Modal-blend Wrap Dress</td>
+                        <td class="py-7">Color Red, Size S</td>
+                        <td class="py-7">
+                            <div class="py-2 w-[100px] flex justify-around items-center text-dark-violet border-2 border-grey rounded-full">
+                                <span class="text-lg font-medium">1</span>
+                                <div class="flex flex-col">
+                                    <i class="fa-solid fa-chevron-up text-[12px] -mb-0.5"></i>
+                                    <i class="fa-solid fa-chevron-down text-[12px] -mt-0.5"></i>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="py-7">$22</td>
+                        <td class="py-7">
+                            <button><i class="fa-solid fa-xmark text-2xl text-dark-violet text-opacity-40 hover:text-opacity-100"></i></button>
+                        </td class="py-7">
+                    </tr>
+                    <tr class="border-b-2 border-grey">
+                        <td class="py-7">Flared Satin Skirt</td>
+                        <td class="py-7">Color Yellow, Size M</td>
+                        <td class="py-7">
+                            <div class="py-2 w-[100px] flex justify-around items-center text-dark-violet border-2 border-grey rounded-full">
+                                <span class="text-lg font-medium">3</span>
+                                <div class="flex flex-col">
+                                    <i class="fa-solid fa-chevron-up text-[12px] -mb-0.5"></i>
+                                    <i class="fa-solid fa-chevron-down text-[12px] -mt-0.5"></i>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="py-7">$63</td>
+                        <td class="py-7">
+                            <button><i class="fa-solid fa-xmark text-2xl text-dark-violet text-opacity-40 hover:text-opacity-100"></i></button>
+                        </td>
+                    </tr>
+                    <tr class="border-b-2 border-grey">
+                        <td class="py-7">Long-sleeved Wrapover Blouse</td>
+                        <td class="py-7">Color White, Size XS</td>
+                        <td class="py-7">
+                            <div class="py-2 w-[100px] flex justify-around items-center text-dark-violet border-2 border-grey rounded-full">
+                                <span class="text-lg font-medium">2</span>
+                                <div class="flex flex-col">
+                                    <i class="fa-solid fa-chevron-up text-[12px] -mb-0.5"></i>
+                                    <i class="fa-solid fa-chevron-down text-[12px] -mt-0.5"></i>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="py-7">$50</td>
+                        <td class="py-7">
+                            <button><i class="fa-solid fa-xmark text-2xl text-dark-violet text-opacity-40 hover:text-opacity-100"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="flex flex-wrap justify-center items-center gap-3 sm:justify-between">
+                <p class="name-01 text-dark-violet-2 text-opacity-40">Total<span class="ml-3 name-01 text-dark-violet">$135</span></p>
+                <input class="w-full px-5 py-2 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[230px] sm:-order-1" type="number" placeholder="Enter Promo">
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-3 sm:justify-between">
+                <a class="text-lg font-medium text-light-violet hover:text-xl" href="#"><i class="fa-solid fa-chevron-left pr-3"></i>Continue Shopping</a>
+                <button class="w-full p-1 text-lg font-medium text-white bg-light-violet border-2 border-light-violet rounded-full hover:text-light-violet hover:bg-white sm:w-[170px]">Go to Delivery</button>
+            </div>
+        </main>
+    </section> -->
+    <div class="divider"></div>
+    <section class="ecommerce-37 container px-5 py-20 sm:px-10">
+        <main class="grid grid-cols-1 justify-items-center gap-14 xl:grid-cols-2 xl:items-center xl:gap-0">
+            <form class="max-w-[570px] text-dark-violet">
+                <div class="pb-10 flex flex-col items-center gap-5 text-center sm:flex-row sm:justify-between">
+                    <h2 class="text-[32px] font-bold">Delivery</h2>
+                    <div class="flex flex-col gap-1 sm:flex-row sm:gap-0">
+                        <button class="w-full px-3 py-2 font-medium text-dark-violet-2 text-opacity-40 border-2 border-grey rounded-full hover:text-white hover:bg-dark-violet hover:border-dark-violet group sm:w-[230px] sm:-mr-0.5 sm:rounded-r-none">Express Delivery<span class="ml-5 px-2 py-0.5 name-01 rounded-full group-hover:text-dark-violet group-hover:bg-white">$40</span></button>
+                        <button class="w-full px-3 py-2 font-medium text-dark-violet-2 text-opacity-40 border-2 border-grey rounded-full hover:text-white hover:bg-dark-violet hover:border-dark-violet group sm:w-[152px] sm:rounded-l-none">Free Delivery</button>
+                    </div>
+                </div>
+                <div class="flex flex-wrap justify-between gap-5">
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">First Name</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[270px]" type="text" placeholder="Tim">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Last Name</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[270px]" type="text" placeholder="Panov">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Phone</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[270px]" type="text" placeholder="219-141-1082">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">E-Mail</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[270px]" type="text" placeholder="panovtimo@gmail.com">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">City</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[270px]" type="text" placeholder="Los Angeles">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Contry</label>
+                        <select class="text-lg font-medium text-dark-violet-2 text-opacity-40 border-2 border-grey rounded-full sm:w-[270px]">
+                            <option class="focus:bg-grey" value="usa">USA</option>
+                            <option value="mexico">México</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="canada">Canadá</option>
+                        </select>
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Address</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[387px]" type="text" placeholder="30 Valley Lane Los Angeles, CA 90006">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Zip-code</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[153px]" type="text" placeholder="90006">
+                    </div>
+                </div>
+            </form>
+            <form class="relative max-w-[470px] px-5 py-10 flex flex-col gap-10 text-dark-violet border-2 border-grey rounded-xl sm:p-10">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-[22px] font-medium">Credit Card</h3>
+                    <div class="flex items-center gap-1">
+                        <div><img class="w-max" src="./public/img/ecommerce-37a.png" alt="Logo Visa"></div>
+                        <div><img class="w-max" src="./public/img/ecommerce-37b.png" alt="Logo Master"></div>
+                        <div><img class="w-max" src="./public/img/ecommerce-37c.png" alt="Logo PayPal"></div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap justify-between gap-5">
+                    <div class="w-full flex flex-col gap-3">
+                        <label class="name-01">Cardholder name</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full" type="text">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Card Number</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[241px]" type="text" placeholder="XXXX XXXX XXXX XXXX">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">EXP DATE</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[99px]" type="text" placeholder="09/24">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">CVV</label>
+                        <input class="w-full px-5 border-2 border-grey rounded-full placeholder:text-lg placeholder:font-medium placeholder:text-dark-violet-2 placeholder:text-opacity-40 sm:w-[76px]" type="text" placeholder="812">
+                    </div>
+                    <div class="w-full flex flex-col gap-3 sm:w-max">
+                        <label class="name-01">Contry</label>
+                        <select class="text-lg font-medium text-dark-violet-2 text-opacity-40 border-2 border-grey rounded-full sm:w-[267px]">
+                            <option class="focus:bg-grey" value="usa">USA</option>
+                            <option value="mexico">México</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="canada">Canadá</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-2 sm:flex-row sm:justify-between">
+                    <a class="text-lg font-medium text-light-violet hover:text-xl" href="#"><i class="fa-solid fa-chevron-left pr-3"></i>Back</a>
+                    <button class="w-full p-1 text-lg font-medium text-white bg-light-violet border-2 border-light-violet rounded-full hover:text-light-violet hover:bg-white sm:w-[242px]">Proceed to Checkout<i class="fa-solid fa-chevron-right pl-3 text-sm"></i></button>
+                </div>
+            </form>
         </main>
     </section>
     <div class="divider"></div>
